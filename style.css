@@ -1,0 +1,156 @@
+@import url(Confessions\ WITHOUT\ ACCENTS\ \(TrueType\).ttf);
+@import url(Britney\ Online\ -\ Avant\ Garde\ LT\ Medium\ -\ BS\ Web\ 2006.ttf);
+@import url(Britney\ Online\ -\ Linear\ EF\ -\ Blackout\ Album.ttf);
+
+@font-face {
+    font-family: "Confessions";
+    src: url(Confessions\ WITHOUT\ ACCENTS\ \(TrueType\).ttf);
+  }
+
+  @font-face {
+    font-family: "Avant";
+    src: url(Britney\ Online\ -\ Avant\ Garde\ LT\ Medium\ -\ BS\ Web\ 2006.ttf);
+  }
+
+  @font-face {
+    font-family: Linear;
+    src: url(Britney\ Online\ -\ Linear\ EF\ -\ Blackout\ Album.ttf);
+  }
+
+* {
+    font-family: Montserrat, sans-serif;
+    margin: 0px 0px 0px 0px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 110px;
+  }
+  
+  nav {
+padding: 10px 5px 10px 5px;
+
+  }
+
+  .btn-bg {
+    display: flex;
+    left: 655px;
+    top: 25px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-image: url("leopard.jpg");
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 630px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #9b9b9b;
+    font-size: 18px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    background-color: [object object];
+    background-image: linear-gradient(
+      180deg,
+      rgba(245, 245, 245, 1),
+      rgba(204, 204, 204, 1)
+    );
+  }
+  .btn-box {
+    position: absolute;
+    top: 28px;
+    left: 660px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 9px;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    box-shadow: inset 0px 0px 8px 2px rgba(231, 89, 138, 1);
+    background-color: #f8bbd0;
+  }
+  
+  .container {
+    display: flex;
+    gap: 10px;
+    padding: 12px 10px 15px 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  nav {
+    display: block;
+    font-size: 30px;
+  }
+  
+  aside {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    display: block;
+    width: 14%;
+    padding-left: 10px;
+    float: right;
+    font-style: italic;
+  }
+  
+  .confessions {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .square-1 {
+    font-family: "Confessions";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+  }
+  
+  .square-2 {
+    font-family: "Linear", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-variant: small-caps;
+    font-size: 20px;
+  }
+  
+  .square-3 {
+    font-family: "Avant", sans-serif;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
